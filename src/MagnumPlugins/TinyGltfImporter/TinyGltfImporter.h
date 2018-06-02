@@ -69,10 +69,10 @@ of the `MagnumPlugins` package and link to the
 
 This plugin provides `GltfImporter` and `GlbImporter` plugins.
 
-@section Trade-TinyGltfImporter-defaults Default
+@section Trade-TinyGltfImporter-defaults Defaults
 
-As glTF leaves the defaults of some properties to the application, the following
-defaults have been chosen for this importer:
+As glTF leaves the defaults of some properties to the application, the
+following defaults have been chosen for this importer:
 
 -   Sampler
     -   Minification/magnification/mipmap filter: @ref SamplerFilter::Linear
@@ -95,7 +95,7 @@ defaults have been chosen for this importer:
 @subsection Trade-TinyGltfImporter-limitations-meshes Mesh import
 
 -   Multi-material meshes are not supported.
--   Meshes with interleaved vertex data/buffer views with stride are not supported.
+-   Meshes with interleaved vertex data/buffer views are not supported.
 
 @subsection Trade-TinyGltfImporter-limitations-materials Material import
 
